@@ -78,7 +78,7 @@ public class EdadActivity extends FragmentActivity {
                     }
                     else {
                         Period periodo = new Period(fecha, hoy, PeriodType.yearMonthDay());
-                        resultado.setText("La edad es "+periodo.getYears()+" año(s), "+periodo.getMonths()+" mese(s) y "+periodo.getDays()+" día(s).");
+                        resultado.setText("Su edad es "+periodo.getYears()+" año(s), "+periodo.getMonths()+" mes(es) y "+periodo.getDays()+" día(s).");
                     }
                 }
                 catch (Exception e) {

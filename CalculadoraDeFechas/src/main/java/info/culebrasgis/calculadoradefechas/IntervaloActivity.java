@@ -97,7 +97,7 @@ public class IntervaloActivity extends FragmentActivity {
                         periodo = new Period(fecha2, fecha, PeriodType.yearMonthDay());
                     }
 
-                    resultado.setText("El intervalo es de "+periodo.getYears()+" año(s), "+periodo.getMonths()+" mese(s) y "+periodo.getDays()+" día(s).");
+                    resultado.setText("El intervalo es de "+periodo.getYears()+" año(s), "+periodo.getMonths()+" mes(es) y "+periodo.getDays()+" día(s).");
 
                 }
                 catch (Exception e) {

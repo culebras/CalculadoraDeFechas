@@ -34,3 +34,5 @@ un pequeño incoveniente). Por otra parte, no usar UTC en los constructores supo
 bugs según la zona en la que esté configurado el teléfono (por ejemplo para España, se produce un
 error si se usa la fecha 01-01-1901 debido a un "time gap"). Habría que seguir investigando cuál
 sería la mejor solución para este asunto.
+
+6. Mejorar los mensajes de salida de resultados en el tema de los plurales.
