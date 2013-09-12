@@ -30,7 +30,7 @@ inferior del año 1900.
 fechas para evitar el desfase que se puede dar por las madrugadas debido a la zona horaria de cada
 lugar. Por ejemplo, en UTC+2 en España, si se usara UTC en los constructores en lugar de tiempo
 local, no habría cambio de día para los cálculos hasta las 2:00 de la madrugada (y eso puede ser
-un pequeño incoveniente). Por otra parte, no usar UTC en los constructores supone unos pequeños
+un pequeño inconveniente). Por otra parte, no usar UTC en los constructores supone unos pequeños
 bugs según la zona en la que esté configurado el teléfono (por ejemplo para España, se produce un
 error si se usa la fecha 01-01-1901 debido a un "time gap"). Habría que seguir investigando cuál
 sería la mejor solución para este asunto.
