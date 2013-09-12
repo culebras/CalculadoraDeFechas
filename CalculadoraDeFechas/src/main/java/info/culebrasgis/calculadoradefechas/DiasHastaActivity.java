@@ -1,5 +1,13 @@
 package info.culebrasgis.calculadoradefechas;
 
+/**
+ * By Culebras, Culebras GIS (www.culebrasgis.info) (https://github.com/culebras)
+ *
+ * Calculadora De Fechas is free software and is licensed under the GPL v2:
+ * GNU GENERAL PUBLIC LICENSE Version 2, June 1991
+ * See LICENSE.md for more details.
+ */
+
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
