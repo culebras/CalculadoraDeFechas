@@ -14,6 +14,9 @@ Consultar el archivo de licencia (LICENSE.md) para detalles acerca de lo que pue
 este proyecto.
 _____________________________________________
 
+Esta aplicación utiliza la librería Java Joda-Time (www.joda.org/joda-time/)
+_____________________________________________
+
 La primera versión 1.0 es ya funcional. Las cosas pendientes por hacer son:
 
 1. Crear un icono de aplicación.
