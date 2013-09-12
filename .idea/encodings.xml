@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DatePickerFragment.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DatePickerFragment2.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DiasDesdeActivity.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DiasHastaActivity.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/EdadActivity.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/IntervaloActivity.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/MainActivity.java" charset="ISO-8859-1" />
+  </component>
+</project>
+

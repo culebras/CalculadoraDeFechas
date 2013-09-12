@@ -1,0 +1,78 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="¿Qué operación desea hacer?"
+        android:id="@+id/textViewEncabezado"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="7dp">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Calcular mi edad (años, meses, días)"
+                android:id="@+id/buttonEdad"
+                android:background="@android:drawable/btn_default" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiempo entre dos fechas (años, meses, días)"
+                android:id="@+id/buttonTiempoEntreFechas"
+                android:background="@android:drawable/btn_default" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Días que faltan hasta una fecha"
+                android:id="@+id/buttonDiasHastaFecha"
+                android:background="@android:drawable/btn_default" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Días que han pasado desde una fecha"
+                android:id="@+id/buttonDiasDesdeFecha"
+                android:background="@android:drawable/btn_default" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Acerca de..."
+                android:id="@+id/buttonAcercaDe"
+                android:background="@android:drawable/btn_default"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Salir"
+                android:id="@+id/buttonSalir"
+                android:background="@android:drawable/btn_default"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
