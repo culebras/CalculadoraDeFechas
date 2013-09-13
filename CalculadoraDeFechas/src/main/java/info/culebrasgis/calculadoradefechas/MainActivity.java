@@ -73,8 +73,10 @@ public class MainActivity extends Activity {
                 AlertDialog.Builder altDialog= new AlertDialog.Builder(MainActivity.this);
                 altDialog.setMessage(
                         "Calculadora De Fechas\n\n" +
-                                "By Culebras GIS\n" +
-                                "www.culebrasgis.info\n\n" +
+                                "Por Culebras GIS\n" +
+                                "(www.culebrasgis.info)\n\n" +
+                                "Iconos y gráficos por JDalebrook\n" +
+                                "(www.jdalebrook.es)\n\n" +
                                 "Esta aplicación utiliza la librería Java " +
                                 "Joda-Time\n(www.joda.org/joda-time/)"
                 );
