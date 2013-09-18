@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora De Fechas</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="title_activity_edad">Calcular Edad</string>
+    <string name="title_activity_dias_hasta">Calcular Días Hasta Fecha</string>
+    <string name="title_activity_intervalo">Calcular Tiempo Entre Dos Fechas</string>
+    <string name="title_activity_dias_desde">Calcular Días Desde Fecha</string>
+
+    <string name="textViewEncabezado">Seleccione la operación:</string>
+    <string name="buttonEdad">Calcular edad (años, meses, días)</string>
+    <string name="buttonTiempoEntreFechas">Calcular tiempo entre dos fechas (años, meses, días)</string>
+    <string name="buttonDiasHastaFecha">Calcular días que faltan hasta una fecha</string>
+    <string name="buttonDiasDesdeFecha">Calcular días que han pasado desde una fecha</string>
+    <string name="buttonAcercaDe">Acerca de...</string>
+    <string name="buttonSalir">Salir</string>
+    <string name="acercaDe">Calculadora De Fechas\n\n
+        Por Culebras GIS\n
+        (www.culebrasgis.info)\n\n
+        Iconos y gráficos por JDalebrook\n
+        (www.jdalebrook.es)\n\n
+        Correcciones en la traducción al inglés por A.M.D.\n
+        (www.translatorana.com)\n\n
+        Esta aplicación utiliza la librería java Joda-Time\n
+        (www.joda.org/joda-time)
+    </string>
+
+    <string name="textViewEncabezado1">Introduzca su fecha de nacimiento:</string>
+    <string name="fecha">DD/MM/AAAA</string>
+    <string name="resultado">Resultado...</string>
+    <string name="nacer_futuro">Aún no es posible que usted haya nacido en el futuro.</string>
+    <string name="fecha_incorrecta">Por favor, compruebe que ha introducido la fecha correctamente.</string>
+    <string name="resultado_edad">Su edad es %1$d año(s), %2$d mes(es) y %3$d día(s).</string>
+    <string name="pulse_calcular">Pulse Calcular...</string>
+    <string name="buttonCalcular">Calcular</string>
+    <string name="buttonReiniciar">Reiniciar</string>
+    <string name="buttonVolver">Volver</string>
+
+    <string name="textViewEncabezado2">Introduzca ambas fechas:</string>
+    <string name="fechas_incorrectas">Por favor, compruebe que ha introducido las fechas correctamente.</string>
+    <string name="resultado_intervalo">El intervalo es de %1$d año(s), %2$d mes(es) y %3$d día(s).</string>
+
+    <string name="textViewEncabezado3">Introduzca la fecha:</string>
+    <string name="fecha_posterior">La fecha ha de ser posterior al momento actual.</string>
+    <string name="resultado_dias_hasta">Queda(n) %1$d día(s) hasta la fecha.</string>
+
+    <string name="fecha_anterior">La fecha ha de ser anterior al momento actual.</string>
+    <string name="resultado_dias_desde">Ha(n) pasado %1$d día(s) desde la fecha.</string>
+
+</resources>

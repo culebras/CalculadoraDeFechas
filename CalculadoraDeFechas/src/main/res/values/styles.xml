@@ -15,6 +15,11 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <!-- Límites de año de los DatePickerDialog -->
+        <item name="android:endYear">9999</item>
+        <item name="android:startYear">1</item>
+
     </style>
 
 </resources>

@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Calculadora De Fechas</string>
+    <string name="app_name">Date Calculator</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_edad">Calcular Edad</string>
-    <string name="title_activity_dias_hasta">Calcular Días Hasta Fecha</string>
-    <string name="title_activity_intervalo">Calcular Tiempo Entre Dos Fechas</string>
-    <string name="title_activity_dias_desde">Calcular Días Desde Fecha</string>
+
+    <string name="title_activity_edad">Calculate Age</string>
+    <string name="title_activity_dias_hasta">Calculate Days Until Date</string>
+    <string name="title_activity_intervalo">Calculate Time Between Two Dates</string>
+    <string name="title_activity_dias_desde">Calculate Days From Date</string>
+
+    <string name="textViewEncabezado">Select operation:</string>
+    <string name="buttonEdad">Calculate age (years, months, days)</string>
+    <string name="buttonTiempoEntreFechas">Calculate time between two dates (years, months, days)</string>
+    <string name="buttonDiasHastaFecha">Calculate days until date</string>
+    <string name="buttonDiasDesdeFecha">Calculate days past from date</string>
+    <string name="buttonAcercaDe">About...</string>
+    <string name="buttonSalir">Exit</string>
+    <string name="acercaDe">Date Calculator\n\n
+        By Culebras GIS\n
+        (www.culebrasgis.info)\n\n
+        Icons and graphic resources by JDalebrook\n
+        (www.jdalebrook.es)\n\n
+        English translation corrections by A.M.D.\n
+        (www.translatorana.com)\n\n
+        This app uses Joda-Time java library\n
+        (www.joda.org/joda-time)
+    </string>
+
+    <string name="textViewEncabezado1">Enter your birth date:</string>
+    <string name="fecha">DD/MM/YYYY</string>
+    <string name="resultado">Result...</string>
+    <string name="nacer_futuro">It is yet not possible to have been born in the future.</string>
+    <string name="fecha_incorrecta">Please, check that you set the date correctly.</string>
+    <string name="resultado_edad">Your age is %1$d year(s), %2$d month(s) and %3$d day(s).</string>
+    <string name="pulse_calcular">Press Calculate...</string>
+    <string name="buttonCalcular">Calculate</string>
+    <string name="buttonReiniciar">Reset</string>
+    <string name="buttonVolver">Back</string>
+
+    <string name="textViewEncabezado2">Enter both dates:</string>
+    <string name="fechas_incorrectas">Please, check that you set the dates correctly.</string>
+    <string name="resultado_intervalo">The interval is %1$d year(s), %2$d month(s) and %3$d day(s).</string>
+
+    <string name="textViewEncabezado3">Enter the date:</string>
+    <string name="fecha_posterior">The date must be set after the present.</string>
+    <string name="resultado_dias_hasta">%1$d day(s) until date.</string>
+
+    <string name="fecha_anterior">The date must be set before the present.</string>
+    <string name="resultado_dias_desde">%1$d day(s) past from date.</string>
 
 </resources>

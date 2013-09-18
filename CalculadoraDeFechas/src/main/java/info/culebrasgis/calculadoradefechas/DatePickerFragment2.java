@@ -45,9 +45,12 @@ public class DatePickerFragment2 extends DialogFragment
         if (dia >= 10) {sDia = String.valueOf(dia);}
         if ((mes+1) < 10) {sMes = "0" + String.valueOf(mes+1);}
         if ((mes+1) >= 10) {sMes = String.valueOf(mes+1);}
-        sAnno = String.valueOf(anno);
+        if (anno < 1000 && anno > 99) {sAnno = "0" + String.valueOf(anno);}
+        if (anno < 100 && anno > 9) {sAnno = "00" + String.valueOf(anno);}
+        if (anno < 10) {sAnno = "000" + String.valueOf(anno);}
+        if (anno > 999) {sAnno = String.valueOf(anno);}
         ((Button) getActivity().findViewById(R.id.buttonFechaUsuario2)).setText(sDia+"/"+sMes+"/"+sAnno);
-        ((TextView) getActivity().findViewById(R.id.textViewResultado)).setText("Pulse 'Calcular'");
+        ((TextView) getActivity().findViewById(R.id.textViewResultado)).setText(R.string.pulse_calcular);
     }
 
 }

@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="¿Qué operación desea hacer?"
+        android:text="@string/textViewEncabezado"
         android:id="@+id/textViewEncabezado"
         android:textStyle="bold" />
 
@@ -21,14 +21,14 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:padding="7dp">
 
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Calcular mi edad (años, meses, días)"
+                android:text="@string/buttonEdad"
                 android:id="@+id/buttonEdad"
                 android:background="@android:drawable/btn_default" />
 
@@ -36,7 +36,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Tiempo entre dos fechas (años, meses, días)"
+                android:text="@string/buttonTiempoEntreFechas"
                 android:id="@+id/buttonTiempoEntreFechas"
                 android:background="@android:drawable/btn_default" />
 
@@ -44,7 +44,7 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Días que faltan hasta una fecha"
+                android:text="@string/buttonDiasHastaFecha"
                 android:id="@+id/buttonDiasHastaFecha"
                 android:background="@android:drawable/btn_default" />
 
@@ -52,14 +52,14 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Días que han pasado desde una fecha"
+                android:text="@string/buttonDiasDesdeFecha"
                 android:id="@+id/buttonDiasDesdeFecha"
                 android:background="@android:drawable/btn_default" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Acerca de..."
+                android:text="@string/buttonAcercaDe"
                 android:id="@+id/buttonAcercaDe"
                 android:background="@android:drawable/btn_default"
                 android:textStyle="bold" />
@@ -67,7 +67,7 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Salir"
+                android:text="@string/buttonSalir"
                 android:id="@+id/buttonSalir"
                 android:background="@android:drawable/btn_default"
                 android:textStyle="bold" />

@@ -55,8 +55,8 @@ public class EdadActivity extends FragmentActivity {
         reiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                resultado.setText("Su edad es...");
-                fechaUsuario.setText("DD/MM/AAAA");
+                resultado.setText(R.string.resultado);
+                fechaUsuario.setText(R.string.fecha);
             }
         });
 
@@ -74,15 +74,16 @@ public class EdadActivity extends FragmentActivity {
                     DateTime fecha = new DateTime(anno, mes, dia, 0, 0);
 
                     if (fecha.isAfter(hoy)) { // si el usuario mete una fecha posterior al día actual
-                        resultado.setText("Aún no es posible que hayas nacido en el futuro ;D");
+                        resultado.setText(R.string.nacer_futuro);
                     }
                     else {
                         Period periodo = new Period(fecha, hoy, PeriodType.yearMonthDay());
-                        resultado.setText("Su edad es "+periodo.getYears()+" año(s), "+periodo.getMonths()+" mes(es) y "+periodo.getDays()+" día(s).");
+                        resultado.setText(String.format(getString(R.string.resultado_edad),
+                                periodo.getYears(), periodo.getMonths(), periodo.getDays()));
                     }
                 }
                 catch (Exception e) {
-                    resultado.setText("Por favor, compruebe que ha introducido la fecha correctamente.");
+                    resultado.setText(R.string.fecha_incorrecta);
                 }
             }
         });

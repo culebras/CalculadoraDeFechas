@@ -55,8 +55,8 @@ public class DiasDesdeActivity extends FragmentActivity {
         reiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                resultado.setText("Resultado...");
-                fechaUsuario.setText("DD/MM/AAAA");
+                resultado.setText(R.string.resultado);
+                fechaUsuario.setText(R.string.fecha);
             }
         });
 
@@ -74,15 +74,16 @@ public class DiasDesdeActivity extends FragmentActivity {
                     DateTime fecha = new DateTime(anno, mes, dia, 0, 0);
 
                     if (fecha.isAfter(hoy)) { // si el usuario mete una fecha posterior al día actual
-                        resultado.setText("La fecha ha de ser anterior al momento actual.");
+                        resultado.setText(R.string.fecha_anterior);
                     }
                     else {
                         Period periodo = new Period(fecha, hoy, PeriodType.days());
-                        resultado.setText("Ha(n) pasado "+(periodo.getDays())+" día(s) desde la fecha.");
+                        resultado.setText(String.format(getString(R.string.resultado_dias_desde),
+                                periodo.getDays()));
                     }
                 }
                 catch (Exception e) {
-                    resultado.setText("Por favor, compruebe que ha introducido la fecha correctamente.");
+                    resultado.setText(R.string.fecha_incorrecta);
                 }
             }
         });

@@ -65,9 +65,9 @@ public class IntervaloActivity extends FragmentActivity {
         reiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                resultado.setText("Resultado...");
-                fechaUsuario.setText("DD/MM/AAAA");
-                fechaUsuario2.setText("DD/MM/AAAA");
+                resultado.setText(R.string.resultado);
+                fechaUsuario.setText(R.string.fecha);
+                fechaUsuario2.setText(R.string.fecha);
             }
         });
 
@@ -97,11 +97,12 @@ public class IntervaloActivity extends FragmentActivity {
                         periodo = new Period(fecha2, fecha, PeriodType.yearMonthDay());
                     }
 
-                    resultado.setText("El intervalo es de "+periodo.getYears()+" año(s), "+periodo.getMonths()+" mes(es) y "+periodo.getDays()+" día(s).");
+                    resultado.setText(String.format(getString(R.string.resultado_intervalo),
+                            periodo.getYears(), periodo.getMonths(), periodo.getDays()));
 
                 }
                 catch (Exception e) {
-                    resultado.setText("Por favor, compruebe que ha introducido las fechas correctamente.");
+                    resultado.setText(R.string.fechas_incorrectas);
                 }
             }
         });

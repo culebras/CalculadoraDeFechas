@@ -55,8 +55,8 @@ public class DiasHastaActivity extends FragmentActivity {
         reiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                resultado.setText("Resultado...");
-                fechaUsuario.setText("DD/MM/AAAA");
+                resultado.setText(R.string.resultado);
+                fechaUsuario.setText(R.string.fecha);
             }
         });
 
@@ -74,15 +74,16 @@ public class DiasHastaActivity extends FragmentActivity {
                     DateTime fecha = new DateTime(anno, mes, dia, 0, 0);
 
                     if (fecha.isBefore(hoy)) { // si el usuario mete una fecha posterior al día actual
-                        resultado.setText("La fecha ha de ser posterior al momento actual.");
+                        resultado.setText(R.string.fecha_posterior);
                     }
                     else {
                         Period periodo = new Period(hoy, fecha, PeriodType.days());
-                        resultado.setText("Queda(n) "+(periodo.getDays()+1)+" día(s) hasta la fecha.");
+                        resultado.setText(String.format(getString(R.string.resultado_dias_hasta),
+                                (periodo.getDays()+1)));
                     }
                 }
                 catch (Exception e) {
-                    resultado.setText("Por favor, compruebe que ha introducido la fecha correctamente.");
+                    resultado.setText(R.string.fecha_incorrecta);
                 }
             }
         });

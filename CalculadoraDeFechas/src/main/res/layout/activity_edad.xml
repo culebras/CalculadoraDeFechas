@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Introduzca su fecha de nacimiento"
-        android:id="@+id/textViewEncabezado"
+        android:text="@string/textViewEncabezado1"
+        android:id="@+id/textViewEncabezado1"
         android:textStyle="bold" />
 
     <ScrollView
@@ -21,7 +21,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical|center_horizontal"
             android:padding="7dp">
 
@@ -29,41 +29,41 @@
                 style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="DD/MM/AAAA"
+                android:text="@string/fecha"
                 android:id="@+id/buttonFechaUsuario" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="90dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Su edad es..."
                 android:id="@+id/textViewResultado"
                 android:gravity="center_vertical|center_horizontal"
-                android:background="@android:drawable/editbox_background_normal" />
+                android:background="@android:drawable/editbox_background_normal"
+                android:text="@string/resultado" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Calcular"
                 android:id="@+id/buttonCalcular"
-                android:background="@android:drawable/btn_default" />
+                android:background="@android:drawable/btn_default"
+                android:text="@string/buttonCalcular" />
 
             <Button
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Reiniciar"
                 android:id="@+id/buttonReiniciar"
-                android:background="@android:drawable/btn_default" />
+                android:background="@android:drawable/btn_default"
+                android:text="@string/buttonReiniciar" />
 
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Volver"
                 android:id="@+id/buttonVolver"
                 android:background="@android:drawable/btn_default"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:text="@string/buttonVolver" />
         </LinearLayout>
     </ScrollView>
 
