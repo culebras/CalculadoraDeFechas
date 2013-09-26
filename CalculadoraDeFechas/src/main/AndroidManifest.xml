@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="info.culebrasgis.calculadoradefechas"
-    android:versionCode="2"
-    android:versionName="1.0.1" >
+    android:versionCode="3"
+    android:versionName="1.0.2" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -49,6 +49,14 @@
         <activity
             android:name="info.culebrasgis.calculadoradefechas.DiasDesdeActivity"
             android:label="@string/title_activity_dias_desde"
+            android:parentActivityName="info.culebrasgis.calculadoradefechas.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="info.culebrasgis.calculadoradefechas.MainActivity" />
+        </activity>
+        <activity
+            android:name="info.culebrasgis.calculadoradefechas.DiaSemanaActivity"
+            android:label="@string/title_activity_dia_semana"
             android:parentActivityName="info.culebrasgis.calculadoradefechas.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

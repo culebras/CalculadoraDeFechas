@@ -3,6 +3,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DatePickerFragment.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DatePickerFragment2.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DiaSemanaActivity.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DiasDesdeActivity.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/DiasHastaActivity.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/CalculadoraDeFechas/src/main/java/info/culebrasgis/calculadoradefechas/EdadActivity.java" charset="ISO-8859-1" />

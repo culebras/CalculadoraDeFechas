@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
     private Button tiempoEntreFechas;
     private Button diasHastaFecha;
     private Button diasDesdeFecha;
+    private Button diaSemana;
     private Button acercaDe;
     private Button salir;
 
@@ -62,6 +63,15 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, DiasDesdeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        diaSemana = (Button) findViewById(R.id.buttonDiaSemana);
+        diaSemana.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DiaSemanaActivity.class);
                 startActivity(intent);
             }
         });

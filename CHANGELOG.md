@@ -1,6 +1,10 @@
 CalculadoraDeFechas
 ===================
 
+v1.0.2 // 26-09-2013
+* Añadida nueva funcionalidad: calcular el día de la semana de una fecha.
+_____________________________________________
+
 v1.0.1 // 18-09-2013
 * Añadido soporte para el idioma inglés (en).
 * Ahora los "strings" están todos en "res/values" para facilitar futuras traducciones.

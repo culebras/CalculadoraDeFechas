@@ -57,6 +57,14 @@
                 android:background="@android:drawable/btn_default" />
 
             <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonDiaSemana"
+                android:id="@+id/buttonDiaSemana"
+                android:background="@android:drawable/btn_default" />
+
+            <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/buttonAcercaDe"

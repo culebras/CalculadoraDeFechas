@@ -8,12 +8,14 @@
     <string name="title_activity_dias_hasta">Calculate Days Until Date</string>
     <string name="title_activity_intervalo">Calculate Time Between Two Dates</string>
     <string name="title_activity_dias_desde">Calculate Days From Date</string>
+    <string name="title_activity_dia_semana">Calculate Day of Week</string>
 
     <string name="textViewEncabezado">Select operation:</string>
     <string name="buttonEdad">Calculate age (years, months, days)</string>
     <string name="buttonTiempoEntreFechas">Calculate time between two dates (years, months, days)</string>
     <string name="buttonDiasHastaFecha">Calculate days until date</string>
     <string name="buttonDiasDesdeFecha">Calculate days past from date</string>
+    <string name="buttonDiaSemana">Calculate day of week</string>
     <string name="buttonAcercaDe">About...</string>
     <string name="buttonSalir">Exit</string>
     <string name="acercaDe">Date Calculator\n\n
@@ -48,5 +50,16 @@
 
     <string name="fecha_anterior">The date must be set before the present.</string>
     <string name="resultado_dias_desde">%1$d day(s) past from date.</string>
+
+    <string name="resultado_dia_semana">The day of week is %1$s.</string>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
 
 </resources>
