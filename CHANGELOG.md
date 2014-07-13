@@ -1,6 +1,10 @@
 CalculadoraDeFechas
 ===================
 
+v1.0.3 // 13-07-2014
+* Última versión libre de la aplicación. (Arreglos menores en configuración).
+_____________________________________________
+
 v1.0.2 // 26-09-2013
 * Añadida nueva funcionalidad: calcular el día de la semana de una fecha.
 _____________________________________________
